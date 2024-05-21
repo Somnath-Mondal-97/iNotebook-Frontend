@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Navbar CSS */
+
+.navbar-heading{
+    font-family: "Jersey 20", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  color: white;
+}
+
+.nav-menu{
+    color: white;
+    font-family: "Jersey 20", sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.nav-link-active{
+    text-decoration: underline;
+}
+
+.navbar{
+    height: 50px;
+}
+
+/* Home CSS */
+
+.home-heading{
+    font-family: "Jersey 20", sans-serif;
+    font-size: 55px;
+    margin-top: 130px;
+}
+
+.home-label{
+    font-family: "Jersey 20", sans-serif;
+    font-size: 35px;
+}
+
+/* YourNotes CSS */
+
+.yourNotes-heading{
+    font-family: "Jersey 20", sans-serif;
+    font-size: 55px;
+    margin-top: 130px;
+}
+
+.yourNote-card{
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* About CSS */
+
+.about-heading{
+    font-family: "Jersey 20", sans-serif;
+    font-size: 55px;
+    margin-top: 130px;
+}
+
+/* ColoorPalletButton CSS */
+
+.color-pallet{
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    top: 120px;
+}
+
+/* Alert CSS */
+
+.iNotebook-alert{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    z-index: 100;
+}
+
+/* Edit Modal CSS */
+
+.open-modal-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/* LogIn CSS*/
+
+.login-label{
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+/* SignUp CSS */
+
+.signup-label{
+    font-weight: bold;
+    font-style: italic;
+}
